@@ -35,8 +35,6 @@ jobs:
          continue-on-error: true
          run: |
            sudo sh action.sh
-           pip3 uninstall telegraph -y
-           pip3 install telegraph
        - name: Loop workflow
          continue-on-error: true
          run: |
