@@ -1,5 +1,5 @@
 branch=main
-git clone -b $branch https://github.com/vexido/Ultroid /root/TeamUltroid
+git clone -b $branch https://github.com/ceciluss/Ultroid /root/TeamUltroid
 cp ultroid/.env /root/TeamUltroid/.env
 cd /root/TeamUltroid
 docker build . --rm --force-rm --compress --pull --file Dockerfile -t ultroid
